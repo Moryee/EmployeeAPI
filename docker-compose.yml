@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    image: mcr.microsoft.com/dotnet/samples:aspnetapp
+    ports:
+      - 80
+      - 443
